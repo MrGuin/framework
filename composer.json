@@ -1,0 +1,20 @@
+{
+  "name": "mrguin/framework",
+  "type": "project",
+  "description": "Simple self-developed PHP framework",
+  "authors": [
+    {
+      "name": "mrguin",
+      "email": "mrguin33@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "smarty/smarty": "~3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\": "app"
+    }
+  }
+}
