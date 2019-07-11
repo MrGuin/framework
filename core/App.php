@@ -8,6 +8,8 @@
 
 namespace Core;
 
+require '../vendor/autoload.php';
+
 // 安全验证
 if (!ACCESS) {
 //    echo '跳转至index';

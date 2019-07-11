@@ -8,11 +8,14 @@
 
 namespace app\Controller;
 
-class IndexController
+use Core\Controller;
+
+class IndexController extends Controller
 {
     // 默认方法
     public function index()
     {
+        var_dump($this->smarty);
         echo '欢迎来到Framework!';
     }
 
